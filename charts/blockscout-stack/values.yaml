@@ -277,7 +277,7 @@ stats:
       timeoutSeconds: 60
   ## Stats ENV vars
   ## ref: https://github.com/blockscout/blockscout-rs/tree/main/stats#env
-  env: []
+  env: {}
     # NAME: VALUE
   envFromSecret: []
     # NAME: VALUE
@@ -349,7 +349,7 @@ userOpsIndexer:
       timeoutSeconds: 60
   ## Stats ENV vars
   ## ref: https://github.com/blockscout/blockscout-rs/tree/main/stats#env
-  env: []
+  env: {}
     # NAME: VALUE
   envFromSecret: []
     # NAME: VALUE
