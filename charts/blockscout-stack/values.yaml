@@ -58,7 +58,7 @@ blockscout:
   ## Blockscout ENV vars
   ## ref: https://docs.blockscout.com/for-developers/information-and-settings/env-variables
   ##
-  env: []
+  env: {}
     # NAME: VALUE
   ## Set ENV vars via secret, this can be usefull for DB connection params, api keys, etc.
   ##
@@ -200,7 +200,7 @@ frontend:
   ## Frontend ENV vars
   ## ref: https://github.com/blockscout/frontend/blob/main/docs/ENVS.md
   ##
-  env: []
+  env: {}
     # NAME: VALUE
   envFromSecret: []
     # NAME: VALUE
